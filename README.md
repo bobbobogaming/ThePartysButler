@@ -7,4 +7,5 @@
 
 [Entry 1: Init. Game Design Document](./BlockPosts/Entry1.md)
 
+[Entry 2: Milestone 1](./BlockPosts/Entry2.md)
 </details>
