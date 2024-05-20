@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb3f0306922587d419385b8b74f0be88, type: 3}
   m_Name: greeny
   m_EditorClassIdentifier: 
+  DialogueExitCode: Green
   dialogueLines:
   - dialogue: yo mr. green here
   - dialogue: 'what up player

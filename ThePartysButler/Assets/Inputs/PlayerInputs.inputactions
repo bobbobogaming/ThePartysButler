@@ -40,6 +40,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "OpenMenu",
+                    "type": "Button",
+                    "id": "9835cdcd-5a71-4f01-a197-bde9fbec5e93",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -174,17 +183,37 @@
                     "action": "AltActionDual",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f1bae16f-fde2-4d56-b2e9-4f1a298094a9",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
         {
-            "name": "Dialogue",
-            "id": "53bd46d2-33de-4001-a5a4-491c3228fd00",
+            "name": "Menu",
+            "id": "f2f53743-8605-418d-99be-16f188a75abc",
             "actions": [
                 {
                     "name": "NextLine",
                     "type": "Button",
-                    "id": "80324bfb-9dc7-44d9-823e-c37661340ed4",
+                    "id": "e9bac3c6-1c27-4a8d-8766-7873c0ab74d2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CloseMenu",
+                    "type": "Button",
+                    "id": "b80584e0-9327-4237-ab98-0099c6fb2d28",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -194,7 +223,7 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "25a45ac3-166f-41a8-a584-2416831fa8ac",
+                    "id": "ba8eaf67-0391-4830-84bc-0bbd04de9a28",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
@@ -205,12 +234,23 @@
                 },
                 {
                     "name": "",
-                    "id": "6e7a6e91-f371-48ec-9162-660d79e0dcce",
+                    "id": "01727449-e022-4b8f-a73e-3e4aa848d96c",
                     "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "NextLine",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "566e8e57-c112-42dc-a28e-fe052afe90c3",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CloseMenu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

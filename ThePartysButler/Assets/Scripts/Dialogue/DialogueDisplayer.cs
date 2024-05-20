@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -10,11 +8,12 @@ public class DialogueDisplayer : MonoBehaviour
     [SerializeField] private TMP_Text dialogueText;
     public DialogueObject currentDialogue;
     private int iDialogueLine = 0;
-    [SerializeField] private PlayerInput playerPlayerInput;
+    [SerializeField] private IUIState playState;
+
+    [SerializeReference] private DialogueEventDispatcher dialogueEventTrigger;
 
     void OnEnable()
     {
-        playerPlayerInput.enabled = false;
         iDialogueLine = 0;
         dialogueBox.SetActive(true);
         dialogueText.text = currentDialogue.dialogueLines[iDialogueLine++].dialogue;
@@ -25,8 +24,9 @@ public class DialogueDisplayer : MonoBehaviour
         if (iDialogueLine >= currentDialogue.dialogueLines.Length)
         {
             dialogueBox.SetActive(false);
-            playerPlayerInput.enabled = true;
-            enabled = false;
+            GetComponent<UIStateContext>().ChangeState(playState);
+            dialogueEventTrigger.DispatchEvent(currentDialogue.DialogueExitCode);
+            //enabled = false;
             return;
         }
         dialogueText.text = currentDialogue.dialogueLines[iDialogueLine++].dialogue;

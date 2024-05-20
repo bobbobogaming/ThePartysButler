@@ -6,6 +6,8 @@ public class DialogueManager : MonoBehaviour
 {
     [SerializeField] private DialogueObject[] dialogueObjects;
     [SerializeField] private DialogueDisplayer dialogueWindow;
+    [SerializeField] private IUIState dialogueState;
+    [SerializeField] private UIStateContext uiStateContext;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -15,7 +17,8 @@ public class DialogueManager : MonoBehaviour
         }
 
         dialogueWindow.currentDialogue = dialogueObjects[0];
-        dialogueWindow.enabled = true;
+        uiStateContext.ChangeState(dialogueState);
+        //dialogueWindow.enabled = true;
         other.enabled = false;
     }
 }

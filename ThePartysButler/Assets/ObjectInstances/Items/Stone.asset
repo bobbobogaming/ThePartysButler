@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb3f0306922587d419385b8b74f0be88, type: 3}
-  m_Name: New Dialogue Object
+  m_Script: {fileID: 11500000, guid: 79515bfd015806e4485a5baf0711f6db, type: 3}
+  m_Name: Stone
   m_EditorClassIdentifier: 
-  dialogueLines:
-  - dialogue: Hello there
-  - dialogue: Whats your name
-  - dialogue: Me name jeff
+  type: Stone
