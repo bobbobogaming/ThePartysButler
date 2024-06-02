@@ -22,7 +22,7 @@ public class NewBehaviourScript : MonoBehaviour
         {
             rb.velocity = Vector3.zero;
         }
-        rb.AddForce(movement * speed);
+        rb.AddForce(movement * speed * Time.deltaTime);
     }
 
     void OnMove(InputValue inputValue)

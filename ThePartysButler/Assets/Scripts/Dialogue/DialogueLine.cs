@@ -4,4 +4,5 @@ using UnityEngine;
 public class DialogueLine
 {
     [TextArea] public string dialogue;
+    public KeyValuePairObject<string,string>[] DialogueOptions;
 }

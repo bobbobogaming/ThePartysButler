@@ -12,8 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb3f0306922587d419385b8b74f0be88, type: 3}
   m_Name: New Dialogue Object
   m_EditorClassIdentifier: 
-  DialogueExitCode: Jeff
+  DialogueExitCode: start_quest_1
   dialogueLines:
   - dialogue: Hello there
+    DialogueOptions: []
   - dialogue: Whats your name
+    DialogueOptions:
+    - Key: Jeff_Name_Dialogue_Answer
+      Value: Hello, I am {playerName}
   - dialogue: Me name jeff
+    DialogueOptions: []

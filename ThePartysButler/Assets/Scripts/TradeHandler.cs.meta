@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: c600532a8609448459116d4b937f6743
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - dialogueEventDispatcher: {instanceID: 0}
+  - inventoryObject: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

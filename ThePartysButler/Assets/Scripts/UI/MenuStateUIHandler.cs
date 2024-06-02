@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MenuStateUIHandler : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class MenuStateUIHandler : MonoBehaviour
 
     void OnEnable() {
         UIObj.SetActive(true);
+        gameObject.GetComponentInChildren<Button>().Select();
     }
     void OnDisable() {
         UIObj.SetActive(false);

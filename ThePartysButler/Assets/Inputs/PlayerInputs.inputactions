@@ -153,6 +153,17 @@
                 },
                 {
                     "name": "",
+                    "id": "780fd407-86f4-4556-8ad0-054a4afc60c0",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "0f5010b0-7afc-4295-bc6b-dbe8fe9c2d33",
                     "path": "<Keyboard>/j",
                     "interactions": "",
@@ -186,8 +197,30 @@
                 },
                 {
                     "name": "",
+                    "id": "2a038da0-f309-4f05-a86b-b69ab378cd2d",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AltActionDual",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "f1bae16f-fde2-4d56-b2e9-4f1a298094a9",
                     "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "480fefd7-b9fc-4cd9-b6b3-57273dc380db",
+                    "path": "<Gamepad>/buttonNorth",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -214,6 +247,15 @@
                     "name": "CloseMenu",
                     "type": "Button",
                     "id": "b80584e0-9327-4237-ab98-0099c6fb2d28",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Confirm",
+                    "type": "Button",
+                    "id": "0f4f3af0-154c-435f-bbb8-20183ac4ef37",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -245,12 +287,45 @@
                 },
                 {
                     "name": "",
+                    "id": "83f9218f-ca9b-49da-b49a-3ac953b4b5b5",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NextLine",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "566e8e57-c112-42dc-a28e-fe052afe90c3",
                     "path": "<Keyboard>/i",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "CloseMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6028e4dc-04e9-4fa7-a6ff-3031161e9540",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CloseMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f85757c5-84e7-4175-b914-007cd1d651d0",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Confirm",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
