@@ -10,6 +10,7 @@ public class ConfirmClicker : MonoBehaviour
     void OnConfirm(InputValue inputValue)
     {
         var buttonGameObj = EventSystem.current.currentSelectedGameObject;
-        buttonGameObj?.GetComponent<Button>()?.onClick.Invoke();
+        if (buttonGameObj == null) { return; }
+        buttonGameObj.GetComponent<Button>().onClick.Invoke();
     }
 }

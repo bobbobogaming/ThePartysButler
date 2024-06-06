@@ -16,7 +16,7 @@ public class QuestLogHandler : MonoBehaviour
             var temp = Instantiate<Button>(questPrefab);
             temp.transform.SetParent(transform,false);
             temp.GetComponent<RectTransform>().anchoredPosition += (Vector2.down * 30) * (transform.childCount - 1);
-            temp.GetComponentInChildren<TMP_Text>(true).text = item.quest.discription;
+            temp.GetComponentInChildren<TMP_Text>(true).text = item.quest.discription + $" ({item.progress}/{item.quest.requiredCount})";
         }
     }
 

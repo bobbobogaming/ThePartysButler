@@ -12,7 +12,20 @@
 [Entry 3: Milestone 2](./BlockPosts/Entry3.md)
 
 [Entry 4: Milestone 3](./BlockPosts/Entry4.md)
+
+[Reflections](./ReflectionsOnGameDevelopment.md)
 </details>
+
+## Link to YouTube Demo
+
+A demo to the game I've created can be found on YouTube.
+
+[![YouTube Demo](https://i9.ytimg.com/vi/Nx88Q1UvS0o/mqdefault.jpg?sqp=CIC6h7MG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFsgXihlMA8=&rs=AOn4CLCe6ZOazQMr1t_W4IxmjHpCeyGVaw)
+Watch YouTube Demo](https://youtu.be/Nx88Q1UvS0o)
+
+## Third Party assets
+
+* Music: [https://assetstore.unity.com/packages/audio/music/orchestral/adventure-rpg-essentials-music-pack-177827](https://assetstore.unity.com/packages/audio/music/orchestral/adventure-rpg-essentials-music-pack-177827)
 
 # Living Game Design Document
 
@@ -66,10 +79,26 @@ timeline
 	* A overall objective of improving the castle and the life of the player, the adventuring party, and the village
 	* Uses a quest system to teach mechanics and provide different shorter term goals 
 * Game systems
-	* ~~"Friendship meters"~~ (tentatively not planned to finish)
-	* ~~Time cycle, as a resource based on actions~~ (tentatively not planned to finish)
+	* ~~"Friendship meters"~~
+	* ~~Time cycle, as a resource based on actions~~
+	* Dialogue system
 	* Quest system
-	* Building and crafting
+	* Resource gathering and trading
+	* ~~Building and crafting~~
+
+## Quests
+
+<details>
+<summary>Quests</summary>
+
+1. Great everyone (start from Lillea)
+2. Gather wood to repair bridge (Start from Crag)
+3. Learn about the locked doors (Start from a door)
+4. Listen to story about the hydra fight (Start from Aîra)
+5. Gather stone for some graves (Start from Ash)
+6. Learn about Titles (Start from Aïra)
+
+</details>
 
 ## Characters
 

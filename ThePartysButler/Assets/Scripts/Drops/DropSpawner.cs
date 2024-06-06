@@ -26,6 +26,7 @@ public class DropSpawner : MonoBehaviour, IDropBehaviour
             var location = new Vector3(dx,dy, gameObject.transform.position.z) + gameObject.transform.position;
             var dropIntance = Instantiate(dropPreset, location,Quaternion.identity);
             dropIntance.AddComponent<ItemDescription>().itemType = dropType;
+            dropIntance.GetComponent<SpriteRenderer>().sprite = dropType.sprite;
             dropIntance.GetComponent<Rigidbody2D>().AddForce(new Vector2(dx,dy));
         }
     }

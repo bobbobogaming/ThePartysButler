@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb3f0306922587d419385b8b74f0be88, type: 3}
+  m_Name: CragTheBallbreaker
+  m_EditorClassIdentifier: 
+  DialogueExitCode: progress_quest_6
+  dialogueLines:
+  - dialogue: 'Crag The Ballbreaker
+
+
+      It''s a of an older song, for reasons
+      Maraziath no longer wishes to be called Crag'
+    DialogueOptions: []
+  - dialogue: 'Crag, Crag, Crag The Ballbreaker
+
+      He''ll take you down
+
+      He''ll
+      throw you out
+
+      He''s and alligator'
+    DialogueOptions: []
+  - dialogue: 'Crag, Crag, Crag The Ballbreaker
+
+      He is so strong
+
+      When
+      he is done
+
+      You''ll need an undertaker'
+    DialogueOptions: []
+  - dialogue: 'Crag, Crag, Crag The Ballbreaker
+
+      He''ll roast your ass
+
+      Cause
+      he''s the best
+
+      He''ll spank your father later/fuck your mother later'
+    DialogueOptions: []

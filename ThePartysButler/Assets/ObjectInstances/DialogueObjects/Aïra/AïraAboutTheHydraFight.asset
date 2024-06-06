@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb3f0306922587d419385b8b74f0be88, type: 3}
+  m_Name: "A\xEFraAboutTheHydraFight"
+  m_EditorClassIdentifier: 
+  DialogueExitCode: start_quest_4
+  dialogueLines:
+  - dialogue: Hydra, hydra, hydra... what rhymes with hydra
+    DialogueOptions:
+    - Key: null
+      Value: What you writting there
+  - dialogue: ohh, hi. I'm writing a song about how we the tournament in the Capital
+    DialogueOptions:
+    - Key: null
+      Value: You fought a hydra in the Capital?!
+  - dialogue: Yeah, they are slippery things those monsters
+    DialogueOptions: []
+  - dialogue: I mean it's one thing with all those heads, and them getting more of
+      them, if you cut one off
+    DialogueOptions: []
+  - dialogue: But also just having long necks, means they can reach further then
+      us
+    DialogueOptions: []
+  - dialogue: AND ALSO, when you think some of your party has all it's attention,
+      then it suddenly swings around and hits you anyway!
+    DialogueOptions:
+    - Key: null
+      Value: What about the others? How did they do?
+  - dialogue: Well how about you go ask them yourself, i'm sure they would be happy
+      to answer
+    DialogueOptions: []

@@ -20,6 +20,7 @@ public class QuestProgressTracker : MonoBehaviour
         if (quest.progress == quest.quest.requiredCount)
         {
             questsLog.activeQuests = questsLog.activeQuests.Where(q => q.progress != q.quest.requiredCount).ToArray();
+            dialogueEventDispatcher.DispatchEvent("quest_completed");
         }
     }
 }

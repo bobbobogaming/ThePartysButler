@@ -27,7 +27,7 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-            dialogueWindow.currentDialogue = idleDialogueObjects[0];
+            dialogueWindow.currentDialogue = idleDialogueObjects[Mathf.Max(0,Mathf.RoundToInt(Random.value * (idleDialogueObjects.Length - 1)))];
         }
         uiStateContext.ChangeState(dialogueState);
         //dialogueWindow.enabled = true;

@@ -11,7 +11,9 @@ public class ActivateSelector : MonoBehaviour
     void OnAltActionDual(InputValue inputValue)
     {
         selectorCollider.enabled = !selectorCollider.enabled;
-
+    }
+    void Update()
+    {
         if (selectorCollider.enabled)
         {
             sprite.color = Color.red;

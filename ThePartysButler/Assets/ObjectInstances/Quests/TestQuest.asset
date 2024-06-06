@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fd4c1534bd7ccd4293fe42b1db1f4f0, type: 3}
   m_Name: TestQuest
   m_EditorClassIdentifier: 
-  questId: 1
+  questId: 0
   discription: do stuff
   requiredCount: 99
   progressEvenId: null

@@ -24,7 +24,13 @@ public class DialogueDisplayer : MonoBehaviour
         //AddDialogueOptions(currentDialogue.dialogueLines[iDialogueLine].DialogueOptions);
         //dialogueText.text = currentDialogue.dialogueLines[iDialogueLine++].dialogue;
         AdvanceDialogue();
-        EventSystem.current.SetSelectedGameObject(GetComponentInChildren<Button>().gameObject);
+    }
+
+    void Update() {
+        if (EventSystem.current.currentSelectedGameObject == null || !EventSystem.current.currentSelectedGameObject.activeInHierarchy)
+        {
+            EventSystem.current.SetSelectedGameObject(GetComponentInChildren<Button>().gameObject);
+        }
     }
 
     void OnNextLine(InputValue inputValue)

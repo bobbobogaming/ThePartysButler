@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb3f0306922587d419385b8b74f0be88, type: 3}
   m_Name: BuyStone
   m_EditorClassIdentifier: 
-  DialogueExitCode: 
+  DialogueExitCode: null
   dialogueLines:
   - dialogue: Wanna buy some stone?
     DialogueOptions:

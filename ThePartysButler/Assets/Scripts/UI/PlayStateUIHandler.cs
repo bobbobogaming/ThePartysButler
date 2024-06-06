@@ -12,10 +12,12 @@ public class PlayStateUIHandler : MonoBehaviour
     void OnEnable()
     {
         UIObj.SetActive(true);
+        Time.timeScale = 1.0f;
     }
     void OnDisable()
     {
         UIObj.SetActive(false);
+        Time.timeScale = 0.0f;
     }
 
     // Update is called once per frame
@@ -24,8 +26,7 @@ public class PlayStateUIHandler : MonoBehaviour
         var invStr = "";
         foreach (var item in inventory.items)
         {
-            invStr = invStr.Equals("") ? "" : invStr + "; ";
-            invStr += item.item + $" ({item.amount})";
+            invStr += $"<sprite name=\"{item.item}\">({item.amount})\t";
         }
         toolBarPlaceholderText.text = invStr;
     }

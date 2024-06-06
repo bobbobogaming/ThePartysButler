@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb3f0306922587d419385b8b74f0be88, type: 3}
+  m_Name: WhereIsTheKeyForTheCastle
+  m_EditorClassIdentifier: 
+  DialogueExitCode: progress_quest_3
+  dialogueLines:
+  - dialogue: Hi Xander
+    DialogueOptions:
+    - Key: null
+      Value: The doors are locked
+  - dialogue: Huh, locked? Ohh yeah I should have to key somewere in this bag...
+    DialogueOptions: []
+  - dialogue: ... where is it... hmm...
+    DialogueOptions: []
+  - dialogue: Did we forget it with the lord in the city...
+    DialogueOptions: []
+  - dialogue: ...
+    DialogueOptions:
+    - Key: null
+      Value: Can't you just pick the doors or something
+  - dialogue: I probably chould... but we still kinda need the key...
+    DialogueOptions: []
+  - dialogue: Can you go see if the others needs help, I'll have a look at the doors
+    DialogueOptions: []
