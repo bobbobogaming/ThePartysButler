@@ -13,6 +13,8 @@
 
 [Entry 4: Milestone 3](./BlockPosts/Entry4.md)
 
+[Entry 5: Showcase](./BlockPosts/Entry5.md)
+
 [Reflections](./ReflectionsOnGameDevelopment.md)
 </details>
 
